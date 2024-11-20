@@ -1,6 +1,6 @@
 # Embedded Systems Projects with Arduino
 
-This repository contains projects I developed during my internship, focusing on creating real-world systems using Arduino. These projects demonstrate how sensors, motors, and displays can work together to perform tasks like controlling devices or collecting and displaying information.
+This repository contains projects I developed during my internship, focusing on creating real-world systems using Arduino. These projects demonstrate how sensors, motors, and displays can work together to perform tasks like controlling devices, collecting, and displaying information, or automating tasks like plotting.
 
 ## Project Overview
 
@@ -34,8 +34,19 @@ This repository contains projects I developed during my internship, focusing on 
 - **Key Components**: Ultrasonic sensor (HC-SR04), LCD display, Arduino board.
 - **Why It’s Useful**: Measuring distance is a common task for robots, automated vehicles, and safety systems.
 
+### 6. Pen Plotter with Stepper Motors
+- **File**: `pen_plotter.ino`
+- **What It Does**: This project controls two stepper motors to create precise X-Y movements for a pen to draw vector graphics on a surface. A servo motor is used to lift and lower the pen for drawing.
+- **Key Components**: Stepper motors (X-axis and Y-axis), servo motor (pen control), Arduino board.
+- **Why It’s Useful**: Pen plotters demonstrate how machines can automate precise tasks like drawing or writing, which is applicable in manufacturing, robotics, and educational tools.
+
 ## How to Use These Projects
 1. Download or clone the repository.
 2. Open the `.ino` files in the Arduino IDE.
 3. Connect the listed components to your Arduino board based on each project.
 4. Upload the code to your board and see the project in action.
+
+## Future Enhancements
+- Adding more complex plotting capabilities for the pen plotter, such as reading G-code.
+- Expanding the sensor data logging project to include multiple sensors and formats.
+- Creating a wireless interface for real-time monitoring projects.
